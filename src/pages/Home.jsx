@@ -1,9 +1,11 @@
-import { ButtonDefault } from "../components/Button"
+import HeroSections from "../sections/HeroSection"
 
 function Home() {
   return (
-    <div className="container mt-5 ">
-      <ButtonDefault />
+    <div className="min-h-screen">
+
+      <HeroSections/>
+
     </div>
   )
 }
