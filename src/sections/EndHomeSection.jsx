@@ -1,10 +1,10 @@
+import FooterWithLottie from "../components/Footer";
 
 
 function EndSections() {
     return (
-        <section className="bg-transparent py-16 h-[48rem]">
-
-
+        <section className="bg-transparent pt-16">
+        <FooterWithLottie />
         </section>
     );
 }
