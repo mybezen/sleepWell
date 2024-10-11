@@ -34,7 +34,7 @@ function CardSection() {
             >
               <div className="relative w-56 h-56 rounded-lg overflow-hidden">
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60 z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-100 z-10"></div>
                 <img src={card.imgSrc} alt={card.title} className="w-full h-full object-cover z-0" />
               </div>
               <div className="absolute bottom-4 left-4 z-20">

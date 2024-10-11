@@ -1,6 +1,11 @@
+
+import ArticleSection from "../sections/ArticleSection"
 import CardSection from "../sections/CardSection"
+import DiagnosticSection from "../sections/DiagnosticSection"
 import HeroSections from "../sections/HeroSection"
+import SolutionSection from "../sections/SolutionSection"
 import VoiceSections from "../sections/VoiceSection"
+import EndSections from "../sections/EndHomeSection"
 
 function Home() {
   return (
@@ -19,11 +24,28 @@ function Home() {
         </div>
         <VoiceSections />
       </section>
-      <section className="bg-[#060716]">
-      
 
-        <CardSection />
-      </section>
+      <div className="h-full bg-gradient-to-b from-[#050816] to-[#16041D]">
+        <section>
+          <CardSection />
+        </section>
+
+        <section>
+          <SolutionSection />
+        </section>
+
+        <section>
+          <ArticleSection />
+        </section>
+
+        <section>
+          <DiagnosticSection />
+        </section>
+
+        <section>
+          <EndSections />
+        </section>
+      </div>
     </div>
   )
 }
