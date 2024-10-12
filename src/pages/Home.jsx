@@ -1,11 +1,10 @@
-
-import ArticleSection from "../sections/ArticleSection"
-import CardSection from "../sections/CardSection"
-import DiagnosticSection from "../sections/DiagnosticSection"
-import HeroSections from "../sections/HeroSection"
-import SolutionSection from "../sections/SolutionSection"
-import VoiceSections from "../sections/VoiceSection"
-import EndSections from "../sections/EndHomeSection"
+import ArticleSection from '../sections/ArticleSection';
+import CardSection from '../sections/CardSection';
+import DiagnosticSection from '../sections/DiagnosticSection';
+import HeroSections from '../sections/HeroSection';
+import SolutionSection from '../sections/SolutionSection';
+import VoiceSections from '../sections/VoiceSection';
+import EndSections from '../sections/EndHomeSection';
 
 function Home() {
   return (
@@ -14,12 +13,11 @@ function Home() {
         <HeroSections />
       </section>
 
-
-      {/* Section Musig */}
-      <section className="bg-[#130D2C]">
+      <section className="bg-[#130D2C] -mt-1 md:mt-0">
         <div className="flex items-center justify-center">
-          <h2 className="mt-14 md:text-5xl text-2xl mx-4 md:mx-0 poppins-bold text-white">
-            Tentang <span className='text-[#52589A]'>Sleep</span><span className='text-[#858FFF]'>Well</span>
+          <h2 className="mt-14 md:text-5xl text-[35px] mx-4 md:mx-0 poppins-bold text-white">
+            Tentang <span className="text-[#52589A]">Sleep</span>
+            <span className="text-[#858FFF]">Well</span>
           </h2>
         </div>
         <VoiceSections />
@@ -47,7 +45,7 @@ function Home() {
         </section>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
